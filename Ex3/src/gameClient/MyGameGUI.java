@@ -46,13 +46,11 @@ public class MyGameGUI extends JFrame {
 	private JButton startButton = new JButton("Start");
 	private GameManager manager;
 	private double finalScore;
-	private KML_Logger kmlLogger;
 	Color colors[] = { Color.BLACK, Color.ORANGE, Color.pink, Color.GRAY, Color.CYAN };
 	String colorsStr[] = { "BLACK", "ORANGE", "PINK", "GRAY", "CYAN" };
 	private JLabel timeLabel = new JLabel("Time left to game: -");
 	private JLabel scoreLabel = new JLabel("Score: -");
 	// the server of the game
-	public game_service game;
 	// the level graph
 	public DGraph gameGraph;
 	// the thread that is going to run in the background
